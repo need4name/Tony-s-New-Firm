@@ -5,31 +5,32 @@ former leader of the Steel City Anarchy, takes his terrace tactics into genteel 
 
 The full design is in [`docs/Firm_Head_Game_Design_Document.pdf`](docs/Firm_Head_Game_Design_Document.pdf).
 
-## Playable slice: Act I, Crown Green Bowling
+## Play it
 
-Open `index.html` in a browser. There's no build step and nothing to install.
-(Or serve the folder: `python3 -m http.server`, then visit http://localhost:8000.)
+**https://need4name.github.io/Tony-s-New-Firm/** (works on a phone; add it to your home screen).
+Or open `index.html` in a browser. No build step.
 
-What this slice covers from the design doc:
+## Chapter 1: Crown Green Bowling
 
-| Design system | In the slice |
-| --- | --- |
-| Act I: Disbanded & Displacement | Intro, then Tony stumbles on a bowls match in Hillsborough Park |
-| Narrative Epiphany Loop | **Monologue** (the rules fade into "wah-wah" white noise) → **Epiphany** (zoom on the eyes, synth pad) → **Skill Unlock** |
-| Mad-Libs Terrace Chants | A chant before each end: pick a word tile for the slot. **Intimidation** (shock value) adds wobble to the opponent's aim. **Cohesion** (fitting the rhythm) charges the Ultra Meter |
-| Sport #1: Crown Green Bowling | Top-down bowls with bias, a jack, the ditch and collisions; 3 ends, 2 bowls each, against an AI opponent |
-| Skill: The Wedge-Shove | With the Ultra Meter full, the next bowl goes out 4× heavier |
-| Quirk: Pacing-Out Jennels | +10% Movement Spatial Awareness: shows part of the bowl's path while you charge a shot |
-| Bureaucracy loop | Infraction (smoke bombs) → Banning Order document with a stamp → tribunal 6–8 weeks later → Loophole Window |
+Tony doesn't play. He stands on the bank as Hallam's **12th man** against Dore & Totley, on three
+wet Saturdays at Hillsborough Park. Each sport in the design doc becomes a chapter; each level is a
+short run of mini-games:
 
-### Controls
+| Mini-game | What you do | What it changes |
+| --- | --- | --- |
+| **Chant** | Type any chant you like. It's marked for rhythm, rhyme, how much it's about the match, and cheek. Starter lines (the Mad-Libs) are there if you're stuck | Fills the Ultra Meter, rattles the visiting bowler, and wins over or upsets the bank |
+| **Clap along** | Tap in time to the terrace rhythm | Fills the Ultra Meter; the bank joins in (or doesn't) |
+| **Put him off** | Shout at the top of the visiting bowler's backswing | Decides who wins the end. Too early gets you a warning |
 
-- **Aim**: mouse/finger over the green, or ← →
-- **Bowl**: hold to charge power (mouse/touch or Space), release to deliver
-- **B**: flip bias left/right · **W**: arm the Wedge-Shove
+The people on the bank (Dorothy, Gerald and Clive the whippet, Dean & Wayne, Mr Pell, Brian the
+groundsman) each have a mood that carries through the chapter. Everything you do shows up in their
+reactions. At the end of the chapter, the banning order is written from what you actually did
+(including your best chant), and anyone you won over joins Tony's new firm.
+
+Progress is saved in the browser.
 
 ## Files
 
 - `index.html`: page shell
-- `style.css`: 1980s newsprint fanzine styling
-- `game.js`: scenes, chant builder, bowls physics and AI, audio (Web Audio, no assets)
+- `style.css`: pale fanzine styling
+- `game.js`: story scenes, levels, mini-games, chant marking, the bank, audio (Web Audio, no assets)
