@@ -226,3 +226,15 @@ textarea {
 }
 
 [hidden] { display: none !important; }
+
+/* Fill-in-the-gap songs */
+.song { font-family: var(--display); font-size: 26px; line-height: 1.5; text-transform: uppercase; }
+.blank {
+  font: inherit; text-transform: uppercase; color: var(--red);
+  width: 4ch; min-width: 3ch; max-width: 100%;
+  border: 0; border-bottom: 4px solid var(--red); background: var(--good);
+  padding: 0 4px; margin: 0 2px;
+}
+.blank::placeholder { color: var(--red); opacity: 0.6; }
+.blank:focus-visible { outline: 3px solid var(--ink); outline-offset: 1px; }
+.gap > * + * { margin-top: 6px; }
