@@ -238,3 +238,14 @@ textarea {
 .blank::placeholder { color: var(--red); opacity: 0.6; }
 .blank:focus-visible { outline: 3px solid var(--ink); outline-offset: 1px; }
 .gap > * + * { margin-top: 6px; }
+
+/* Recruit */
+.convo > * + * { margin-top: 6px; }
+.reply { font-style: italic; color: var(--sub); padding-left: 12px; border-left: 3px solid var(--rule); }
+.reply.good { border-left-color: var(--turf); color: var(--ink); }
+.reply.bad { border-left-color: var(--red); }
+.choices { display: flex; flex-direction: column; gap: 8px; }
+.choice {
+  font-family: var(--body); font-weight: 700; text-transform: none; letter-spacing: 0;
+  font-size: 17px; text-align: left; background: #fff; color: var(--ink); border-color: var(--ink);
+}

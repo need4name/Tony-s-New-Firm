@@ -34,6 +34,20 @@ The people on the bank (Dorothy, Gerald and Clive the whippet, Dean & Wayne, Mr 
 groundsman) have moods that carry through the chapter. The banning order at the end is written from what
 you actually did, and anyone you won over joins Tony's new firm.
 
+## Chapter 2: Badminton (The Recruitment Drive)
+
+Thursday nights at St Oswald's church hall, St Oswald's v Ecclesall. Anyone Tony won over in Chapter 1
+comes with him in matching scarves (and starts the Ultra Meter higher), and the firm gets a name: the
+Gentlemen's Ultra Movement. Two new mini-games:
+
+| Mini-game | What you do |
+| --- | --- |
+| **Recruit** | Talk someone into joining GUM. Pick what Tony says three times; say what they care about and they join, scarf and all |
+| **Smash** | In the final, St Oswald's are a player short and Tony gets a racket. Tap when the shuttle is in the circle |
+
+Put him off becomes shouting at the server as he tosses the shuttle. The chapter ends with a letter from the
+South Yorkshire Badminton Association and a new habit, the Racket Power Shot (the Ultra Meter fills 10% faster).
+
 Progress is saved in the browser.
 
 ## Files
